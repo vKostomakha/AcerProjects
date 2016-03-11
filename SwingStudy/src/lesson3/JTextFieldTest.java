@@ -21,10 +21,8 @@ public class JTextFieldTest {
         JTextField textField = new JTextField(30);
         JPasswordField passwordField = new JPasswordField(30);
 
-        textField.setText("FUCK");
+        textField.setText("cool");
         System.out.println(textField.getText());
-
-        textField.setBackground(new Color(11,2,40));
 
         colection.add(textField);
         colection.add(button);
