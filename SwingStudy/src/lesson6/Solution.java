@@ -19,12 +19,15 @@ public class Solution {
         window.setVisible(true);
 
         JPanel content = new JPanel();
+        JPanel content1 = new JPanel();
 
         JButton tButton = new JButton("TEST");
 
         content.setBackground(Color.cyan);
+        content1.setBackground(Color.BLACK);
 
         window.setContentPane(content);
+        window.setContentPane(content1);
 
     }
 
